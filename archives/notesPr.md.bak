@@ -1,0 +1,77 @@
+
+---
+
+# item日常操作（插件）
+
+## 基本信息
+
+- 时间：2026-03-28 23:10
+- 来源：与珊珊的对话
+- 类型：指定内容记录
+
+## 内容
+
+### 正文
+
+Oh My Zsh 日常操作与插件说明整理
+
+1. 主题
+- 当前主题：powerlevel10k（冷色调蓝灰风）
+- 作用：显示当前目录、git 状态、命令执行耗时、时间等信息，界面更清爽直观。
+- 如需进一步个性化，可运行：p10k configure
+
+2. 已安装工具
+- fzf：模糊搜索工具，用于历史命令、文件、目录快速选择。
+- eza：更好看的 ls，用于彩色列表、图标、树状展示。
+- bat：更好看的 cat，带语法高亮。
+- fd：更快的 find 替代品。
+- zoxide：智能目录跳转工具。
+
+3. 已启用插件
+- git：提供 git 常用别名与补全。
+- macos：提供 macOS 常用命令支持。
+- zsh-autosuggestions：根据历史命令给出灰色自动建议。
+- zsh-syntax-highlighting：命令行语法高亮，错误命令会显示异常颜色。
+- fzf-tab：增强 Tab 补全效果，支持候选项模糊选择。
+- zoxide：配合 z 命令进行智能跳目录。
+- colored-man-pages：man 手册带颜色显示。
+- extract：统一解压常见压缩文件。
+
+4. 常用快捷键
+- Ctrl + R：搜索历史命令。
+- Ctrl + T：搜索文件并插入当前命令行。
+- Alt + C：搜索目录并直接进入。
+- Tab：增强补全。
+- Shift + Tab：反向切换补全项。
+- 右方向键：接受 zsh-autosuggestions 的灰色建议。
+- Ctrl + A：跳到行首。
+- Ctrl + E：跳到行尾。
+- Ctrl + W：删除前一个单词。
+- Option + 左/右方向键：按单词移动。
+
+5. 常用别名
+- ls：替换为 eza，美化目录显示。
+- ll：详细列表显示。
+- la：显示包含隐藏文件的完整列表。
+- lt：树状显示目录。
+- c：清屏。
+- reload：重新加载 ~/.zshrc。
+- zshrc：快速打开 ~/.zshrc。
+- g：git
+- ga：git add
+- gc：git commit -m
+- gst：git status -sb
+- gl：git log --oneline --graph --decorate -20
+- gp：git push
+- gpl：git pull --rebase
+- gd：git diff
+- z 关键词：通过 zoxide 快速跳转到常去目录。
+
+6. 日常建议
+- 修改配置后执行：source ~/.zshrc
+- 打开新终端后可优先试：ll、gst、Ctrl + R、Ctrl + T、Alt + C
+- 如果主要是记录和查找命令，fzf、zoxide、git 插件是最常用的核心组合。
+
+### 备注
+
+- 无

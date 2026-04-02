@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "name": "Github",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=github",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "ontology": {
+      "name": "Ontology",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=ontology",
+      "source": "skillhub",
+      "version": "0.1.2"
+    },
+    "find-skills": {
+      "name": "Find Skills",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=find-skills",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "summarize": {
+      "name": "Summarize",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=summarize",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving": {
+      "name": "Self-Improving + Proactive Agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving",
+      "source": "skillhub",
+      "version": "1.2.16"
+    },
+    "memory-setup": {
+      "name": "Memory Setup",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=memory-setup",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "ui-audit": {
+      "name": "UI Audit",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=ui-audit",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "skill-vetter": {
+      "name": "Skill Vetter",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=skill-vetter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
