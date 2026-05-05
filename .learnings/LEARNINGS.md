@@ -54,3 +54,30 @@
 - Last-Seen: 2026-05-05
 
 ---
+
+## [LRN-20260505-003] correction
+
+**Logged**: 2026-05-05T22:27:00+08:00
+**Priority**: medium
+**Status**: pending
+**Area**: docs
+
+### Summary
+当用户说“根据图片生成珊珊的人生剧本”时，主角应明确是珊珊，不要默认写成用户本人的人生剧本。
+
+### Details
+这次在处理“根据 /Users/a1-6/Downloads/6.jpg 生成珊珊的人生剧本，从3岁到35岁，珊珊今天35岁了”时，前一次误把主角写成了用户本人。后续遇到此类请求，要优先解析“谁是主角”，尤其当用户明确写出“珊珊的人生剧本”时，应按珊珊视角生成。
+
+### Suggested Action
+涉及“人生剧本 / 画像 / 人设延展”类创作时，先确认主角对象：是用户本人、珊珊，还是其他 agent。若用户已明确点名，则严格按该对象写作。
+
+### Metadata
+- Source: user_feedback
+- Related Files: /Users/a1-6/.openclaw/workspace/archives/notesPr.md
+- Tags: correction, persona, protagonist, creative-writing
+- Pattern-Key: writing.protagonist.resolve_explicit_subject
+- Recurrence-Count: 1
+- First-Seen: 2026-05-05
+- Last-Seen: 2026-05-05
+
+---
