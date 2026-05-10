@@ -25,3 +25,31 @@ Prefer keyboard shortcuts and UI tree inspection for Freeform automation instead
 - See Also: none
 
 ---
+## [ERR-20260507-001] sessions_send_parameter_conflict
+
+**Logged**: 2026-05-07T09:59:37Z
+**Priority**: medium
+**Status**: pending
+**Area**: config
+
+### Summary
+`sessions_send` 同时传 `sessionKey` 和 `label` 会报错，必须二选一。
+
+### Error
+```
+Provide either sessionKey or label (not both).
+```
+
+### Context
+- Operation attempted: 向 sale agent 发送催日报消息
+- Parameters used: `sessionKey` + `label` 同时传入
+- Environment: OpenClaw main workspace
+
+### Suggested Fix
+调用 `sessions_send` 时只传 `sessionKey` 或只传 `label`，不要同时传两者。
+
+### Metadata
+- Reproducible: yes
+- Related Files: none
+
+---
